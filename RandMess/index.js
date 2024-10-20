@@ -22,7 +22,7 @@ function* getRadnomMessage() {
         "from": fakerRU.internet.email(from),
         "subject": subject,
         "body": fakerRU.lorem.text(),
-        "received": `${hour}:${minute}:${second} ${day}.${month}.${clock.getFullYear()}`
+        "received": `${hour + 3}:${minute}:${second} ${day}.${month}.${clock.getFullYear()}`
       }
 }
 
