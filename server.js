@@ -11,7 +11,7 @@ koa.use(koaBody({
 }))
 
 koa.use(cors({
-    origin: "*"
+    origin: "https://rail-g.github.io"
 }))
 
 koa.use(router())
